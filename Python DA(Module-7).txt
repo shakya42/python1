@@ -324,13 +324,6 @@
 # print(dict4)
  
 
-# 36. Write a Python script to check if a given key already exists in a dictionary. 
-x = {"a":1, "b":2 ,"c":3}
-check_key = "d"
-if check_key in x.keys():
-    print(f'The key {check_key} is present having value {x[check_key]}')
-else:
-    print("Not found")
 
 
   
