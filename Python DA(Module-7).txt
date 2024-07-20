@@ -1,7 +1,8 @@
 
 # 1.What are the types of Applications?
 Answer :-
-An application, often called an app, is software designed to perform specific tasks for users. It can run on devices like computers, smartphones, and tablets. Examples include web browsers, games, and word processors.
+An application, often called an app, is software designed to perform specific tasks for users. It can run on devices like computers, smartphones, and tablets.
+Examples include web browsers, games, and word processors.
 
 Types of Applications:
 A.	Web Applications :- Run on web browsers and are accessed through URLs.
@@ -50,11 +51,17 @@ Examples: WhatsApp, Slack, Zoom.
 
 # 2.What is programming?
 Answer :-
-Programming, also known as coding, is the process of creating a set of instructions that tell a computer how to perform a specific task. These instructions, called programs, are written in a language that the computer can understand and execute.
+Programming, also known as coding, is the process of creating a set of instructions that tell a computer how to perform a specific task.
+These instructions, called programs, are written in a language that the computer can understand and execute.
 
 # 3.What is Python?
 Answer :-
-Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
+Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.
+Its high-level built in data structures, combined with dynamic typing and dynamic binding,
+make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.
+Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance.
+Python supports modules and packages, which encourages program modularity and code reuse.
+The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
 
 # 4.Write a Python program to check if a number is positive, negative or zero.
 Answer :-
@@ -124,29 +131,35 @@ Fibonacci Series:
 
 # 7.How memory is managed in Python?
 Answer :-
-Memory management is handled automatically by the Python interpreter through a private heap space. Here are some key aspects of memory management in Python:
+        Memory management is handled automatically by the Python interpreter through a private heap space. Here are some key aspects of memory management in Python:
 1.	Automatic Memory Allocation and Deallocation:
-•	Python uses a built-in memory manager to manage memory allocation and deallocation automatically. This means developers do not need to manually allocate or deallocate memory as in lower-level languages like C or C++.
+•	Python uses a built-in memory manager to manage memory allocation and deallocation automatically.
+        This means developers do not need to manually allocate or deallocate memory as in lower-level languages like C or C++.
 
 2.	Garbage Collection:
-•	Python utilizes a garbage collector to reclaim memory occupied by objects that are no longer referenced and thus are unreachable. The garbage collector periodically runs in the background to free up memory from unused objects.
+•	Python utilizes a garbage collector to reclaim memory occupied by objects that are no longer referenced and thus are unreachable.
+        The garbage collector periodically runs in the background to free up memory from unused objects.
 
 3.	Reference Counting:
-•	Python uses a reference counting mechanism along with garbage collection. Each object in Python maintains a reference count, which tracks the number of references pointing to that object. When an object's reference count drops to zero, it indicates that the object is no longer in use, and the memory occupied by that object can be reclaimed.
+•	Python uses a reference counting mechanism along with garbage collection. Each object in Python maintains a reference count, which tracks the number of references pointing to that object.
+        When an object's reference count drops to zero, it indicates that the object is no longer in use, and the memory occupied by that object can be reclaimed.
 
 4.	Memory Pool:
 •	Python manages memory allocation through a private heap containing various memory pools for different types of objects. This helps in efficient memory allocation and management.
 
 5.	Memory Optimization:
-•	Python optimizes memory usage through techniques like memory sharing (for immutable objects like strings and tuples) and reuse of small integer objects (-5 to 256). This reduces the overhead of memory allocation for frequently used objects.
+•	Python optimizes memory usage through techniques like memory sharing (for immutable objects like strings and tuples) and reuse of small integer objects (-5 to 256).
+        This reduces the overhead of memory allocation for frequently used objects.
 
 
 # 8.What is the purpose continuing statement in python?
 Answer :-
-The continue statement is used to skip the rest of the current iteration of a loop (typically a for or while loop) and continue to the next iteration. Its primary purpose is to control the flow of execution within loops.
-Key purposes of the continue statement include:
+        The continue statement is used to skip the rest of the current iteration of a loop (typically a for or while loop) and continue to the next iteration.
+        Its primary purpose is to control the flow of execution within loops.
+        Key purposes of the continue statement include:
 1.	Skipping Iterations: When encountering the continue statement, Python immediately stops executing the remaining code in the current loop iteration and proceeds directly to the next iteration.
-2.	Selective Processing: It allows selective processing of loop iterations based on certain conditions. For example, you might use it to skip processing certain elements in a list or performing specific actions on certain types of data.
+2.	Selective Processing: It allows selective processing of loop iterations based on certain conditions.
+        For example, you might use it to skip processing certain elements in a list or performing specific actions on certain types of data.
 
 Here's a simple example to illustrate the use of continue:
 for num in range(1, 11):
@@ -315,11 +328,12 @@ Enter a string:  HEY HOW
 
 # 17.What are negative indexes and why are they used?
 Answer :-
-Negative indexes in Python are a way to index elements in sequences (such as lists, strings, and tuples) starting from the end of the sequence rather than the beginning. This feature is particularly useful for accessing elements from the end without needing to know the exact length of the sequence.
-How Negative Indexes Work:
+        Negative indexes in Python are a way to index elements in sequences (such as lists, strings, and tuples) starting from the end of the sequence rather than the beginning. 
+        This feature is particularly useful for accessing elements from the end without needing to know the exact length of the sequence.
+        How Negative Indexes Work:
 •	The index -1 refers to the last element of the sequence.
 •	The index -2 refers to the second-to-last element, and so on.
-For example, consider the list my_list = [10, 20, 30, 40, 50]:
+        For example, consider the list my_list = [10, 20, 30, 40, 50]:
 •	my_list[-1] returns 50 (the last element).
 •	my_list[-2] returns 40 (the second-to-last element).
 Why Negative Indexes are Used:
